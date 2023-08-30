@@ -1,0 +1,11 @@
+body{  
+    height: 5%;
+    margin: 0;
+       padding: 0;
+       overflow: auto;
+       background: url("https://pa1.aminoapps.com/6346/dfd249db982aeba076a5a2a413a094ba34364b07_hq.gif" ) no-repeat ;
+       background-size: cover;
+       background-attachment: fixed;
+          color: aliceblue;
+    }
+  
