@@ -6,7 +6,7 @@ function Header(){
     <div  >
       <div className={style.HeaderOne}>
         <div className={style.Foto}>
-            <img  className={style.imagendeHeader}  src="https://contents.bebee.com/users/id/Gdxql64dfd6797f460/_avatar-U22m1-400.png" /> 
+            <img  className={style.imagendeHeader}  src="https://contents.bebee.com/users/id/Gdxql64dfd6797f460/avatar-1xcG6.png" alt='' /> 
         </div>
         
         <div className={style.Name}>
@@ -35,7 +35,7 @@ function Header(){
       <div className={style.Resid}>
         <h4 >
         Residencia - Bogota, Colombia 
-        <p className={style.Re}>  +57 3105689393</p>
+       
         </h4>
       </div>
       </div>
