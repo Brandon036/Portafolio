@@ -6,7 +6,7 @@ function Header(){
     <div  >
       <div className={style.HeaderOne}>
         <div className={style.Foto}>
-            <img src="https://contents.bebee.com/users/id/Gdxql64dfd6797f460/_avatar-U22m1-400.png" /> 
+            <img  className={style.imagendeHeader}  src="https://contents.bebee.com/users/id/Gdxql64dfd6797f460/_avatar-U22m1-400.png" /> 
         </div>
         
         <div className={style.Name}>

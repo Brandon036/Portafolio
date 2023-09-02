@@ -7,7 +7,7 @@
     );
    gap: 1em;
 }
-img {
+.imagendeHeader {
     max-width: 50%;
   
 }

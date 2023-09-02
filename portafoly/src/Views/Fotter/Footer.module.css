@@ -1,0 +1,48 @@
+.Footer{
+    background: rgb(39, 39, 39);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.FooterTwo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(150px, 3fr)
+    );
+   gap: 1em;
+}
+.imagendeFooter {
+    width: 20%;
+   justify-content: center;
+
+}
+
+.botonesFooter {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 25%;
+    align-items: center;
+
+    background: #242424;
+    outline-offset: -3px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+
+  
+  .botonesFooter:hover {
+    background-color: white;
+    border-radius:5rem ;
+  
+  }
+  .imagendeFooter:hover{
+    border-radius: 5rem;
+  }
