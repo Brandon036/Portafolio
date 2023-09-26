@@ -118,11 +118,10 @@ function Proyectos() {
             <img src="https://images.adsttc.com/media/images/5968/b62b/b22e/38f0/4900/014e/original/RH_GIF.gif?1500034596" alt="" />
              </a>
     </div>
+
     <div className={style.puertasenvidrio}>
-      
  <h3>Puertas En Vidrio </h3> 
 <h4>
-
 Es un sitio web que tiene como objetivo mostrar un catálogo de servicios (está en proceso).
 </h4>
 <ul>
@@ -131,7 +130,6 @@ Es un sitio web que tiene como objetivo mostrar un catálogo de servicios (está
     <li>
 Deploy: VPS – Nginx</li>
     <li>Front-End: React, Html, JavaScript, Redux, Css, (Responseve).</li>
-
     <li>Back-End: Vite, Node Js, Express, JavaScript, Sequelize,</li>
     <li>
 Base De Datos: PostgresSql Sequelize</li>
@@ -139,20 +137,57 @@ Base De Datos: PostgresSql Sequelize</li>
 <p>
     Extra: Github.
 </p>
-
-
-<button>
-   <a href="http://www.puertasenvidrio.com/"  target="blank"  >
+<button className={style.btn31}>
+    <span className={style.textcontainer}>
+          <a className={style.text} href="http://www.puertasenvidrio.com/"  target="blank"  >
     Enter
    </a>
-    
+    </span>
 </button>
-
-       
-    
 
     </div>
  </div>
+<br />
+
+
+
+<div className={style.p5}>
+<div className={style.nftapp}>
+<h3>App Web De Comercio Electrónico.</h3> 
+<h4>
+Es una aplicación web que tiene como objetivo poder comprar y vender Nfts.
+(Fue un proyecto grupal)
+</h4>
+<ul>
+    <li>Design UI/UX: Figma, Trello.</li>
+    <li>Dominio: Hostinger.</li>
+    <li>
+Deploy: VPS – Nginx</li>
+    <li>Front-End: React, Html, JavaScript, Redux, Css, (Responseve).</li>
+    <li>Back-End: Vite, Node Js, Express, JavaScript, Sequelize,</li>
+    <li>
+Base De Datos: PostgresSql Sequelize</li>
+</ul>
+<p>
+    Extra: Github.
+</p>
+<button className={style.botonnft}>
+ 
+<a className={style.text} href="https://nifytigo.vercel.app/"  target="blank"  >
+    Enter
+   </a>
+  
+</button>
+</div>
+<div className={style.p5imagen}>
+<a  href="https://github.com/rodri154321/nifytigo.git">
+            <img src="https://miro.medium.com/v2/resize:fit:1400/0*IeYR9nqblbolhTHE.gif" alt="" />
+             </a>
+</div>
+
+</div>
+<br />
+
     </div>
   )
 }

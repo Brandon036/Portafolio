@@ -16,29 +16,84 @@
      display: grid;
     grid-template-columns: repeat( auto-fit, minmax(250px, 2fr) ); 
 }
+.p5{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 2fr) ); 
+}
+
 .dogs{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(26, 40, 53);
+    padding: 1rem;
+}
+.dogs:hover{
+    
+    background: url("https://i.gifer.com/1Afc.gif") no-repeat;
+    background-position: 50%;
+    margin: 0 auto;
+    background-size: 120%;
 }
 .alimentos{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(64, 88, 59);
+    padding: 1rem;
+}
+.alimentos:hover{
+ 
+    background: url("https://img1.picmix.com/output/stamp/normal/0/3/3/1/1741330_80e9c.gif") no-repeat;
+    background-position: 50%;
+    margin: 0 auto;
+    background-size: 80%;
 }
 .videojuegos{
     display: flex;
     flex-direction: column;
     align-items: center;
    background-color: rgb(68, 51, 83);
+   padding: 1rem;
+}
+.videojuegos:hover{
+    background: url("https://cdn.myportfolio.com/3b41d7d8-8af7-4d13-983a-c64707d65dcf/8f1da693-f4d2-4b7d-b527-29f413f82d02_rw_1200.gif?h=2a910c45774066e25b3d073368a7784d") no-repeat;
+    background-position: 50%;
+    margin: 0 auto;
+    background-size: 100%;
 }
 .puertasenvidrio{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(63, 7, 13);
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    padding: 1rem;
+}
+.puertasenvidrio:hover{
+/*https://i.gifer.com/XOse.gif*/
+background: url("https://i.gifer.com/8UpN.gif") no-repeat;
+    background-position: 50%;
+    margin: 0 auto;
+    background-size: 130%;
+}
+.text{
+     text-decoration: none;
+     color: #e1e1e1;
+}
+.nftapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   background-color: #bba8a8;
+    color: #9509c0;
+    padding: 1rem;
+}
+.nftapp:hover{
+    background: url("https://media1.giphy.com/avatars/doodlesbyburnttoast/dMqxHmPPA8fd.gif") no-repeat;
+    background-position: 50%;
+    margin: 0 auto;
+    background-size: 100%;
 }
 
 .p1imagen{
@@ -71,4 +126,191 @@
 .p4imagen img{
     width: 250px;
     border: none;
+}
+.p5imagen{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p5imagen img{
+    width: 400px;
+}
+
+
+/*botones*/
+.botonnft{
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    margin: 5px;
+  }
+  
+  .botonnft:focus,
+  .botonnft:hover {
+    color: #fff;
+  }
+  
+  .botonnft:focus:after,
+  .botonnft:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .botonnft:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+
+
+
+.btn31,
+.btn31 *,
+.btn31 :after,
+.btn31 :before,
+.btn31:after,
+.btn31:before {
+
+  box-sizing: border-box;
+}
+
+.btn31 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+}
+
+.btn31:disabled {
+  cursor: default;
+}
+
+.btn31:-moz-focusring {
+  outline: auto;
+}
+
+.btn31 svg {
+  display: block;
+  vertical-align: middle;
+}
+
+.btn31 [hidden] {
+  display: none;
+}
+
+.btn31 {
+  border-width: 1px;
+  padding: 1rem 2rem;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.btn31:before {
+  --progress: 100%;
+  background: #fff;
+  -webkit-clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  clip-path: polygon(
+    100% 0,
+    var(--progress) var(--progress),
+    0 100%,
+    100% 100%
+  );
+  content: "";
+  inset: 0;
+  position: absolute;
+  transition: -webkit-clip-path 0.2s ease;
+  transition: clip-path 0.2s ease;
+  transition: clip-path 0.2s ease, -webkit-clip-path 0.2s ease;
+}
+
+.btn31:hover:before {
+  --progress: 0%;
+}
+
+.btn31 .textcontainer {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn31 .text {
+  display: block;
+  font-weight: 900;
+  mix-blend-mode: difference;
+  position: relative;
+}
+
+.btn31:hover .text {
+  -webkit-animation: move-up-alternate 0.3s ease forwards;
+  animation: move-up-alternate 0.3s ease forwards;
+}
+
+@-webkit-keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes move-up-alternate {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(80%);
+  }
+
+  51% {
+    transform: translateY(-80%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
 }
