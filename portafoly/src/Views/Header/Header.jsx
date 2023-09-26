@@ -3,7 +3,23 @@ import React from 'react'
 import style from "./Header.module.css"
 function Header(){
   return (
-    <div  >
+    <div className={style.hola} >
+<div className={style.fijar}>
+  
+  <div className={style.fondotriangulo} >
+        <div className={style.triangulo}>
+          
+      </div>
+      <div className={style.triangulo1}>
+       
+     </div>
+      <div className={style.triangulo2}>
+      </div>
+    
+      </div>
+</div>
+
+
       <div className={style.HeaderOne}>
         <div className={style.Foto}>
             <img  className={style.imagendeHeader}  src="https://contents.bebee.com/users/id/Gdxql64dfd6797f460/avatar-1xcG6.png" alt='' /> 

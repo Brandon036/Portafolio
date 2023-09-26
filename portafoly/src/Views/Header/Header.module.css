@@ -10,6 +10,7 @@
 .imagendeHeader {
     max-width: 50%;
   
+  
 }
 .Name{
     display: flex;
@@ -149,3 +150,73 @@
   .buttonOne:hover .boxOne:before {
     transform: translateY(0);
   }
+
+
+  .hola{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.fijar{
+
+ margin: 0;
+ height: 0;
+}
+
+  .fondotriangulo{
+    display: grid;
+   grid-template-columns: repeat( auto-fit, minmax(250px, 3fr) ); /* Puedes ajustar el número de columnas según tus necesidades */
+    grid-gap: 10px; /* Espacio entre los elementos */
+ 
+ }
+ 
+ .triangulo{
+  align-items: center;
+  margin: 0 auto;
+    background: rgb(255, 255, 255);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 81% 99%, 50% 70%, 20% 100%, 32% 57%, 2% 35%, 39% 35%);
+    width: 120px;
+    height: 100px;
+    animation: myAnim 50s ease 1s infinite normal forwards;
+ z-index: 0;
+ opacity: 0.4;
+ }
+ .triangulo:hover{
+  opacity: 0;
+ }
+ .triangulo1{
+  align-items: center;
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 81% 99%, 50% 70%, 20% 100%, 32% 57%, 2% 35%, 39% 35%);
+  width: 120px;
+  height: 100px;
+  animation: myAnim 50s ease 1s infinite normal forwards;
+  opacity: 0.4;
+ }
+ .triangulo2{
+  align-items: center;
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 81% 99%, 50% 70%, 20% 100%, 32% 57%, 2% 35%, 39% 35%);
+    width: 120px;
+    height: 100px;
+    animation: myAnim 50s ease 1s infinite normal forwards;
+    z-index: 0;
+    opacity: 0.4;
+ }
+
+
+ 
+ @keyframes myAnim {
+	0% {
+		transform: translateY(0); 
+	}
+
+	100% {
+		transform: translateY(1000px);
+
+	}
+}
+

@@ -1,9 +1,17 @@
 import React from 'react'
 import style from "./Body.module.css"
-
+import Proyectos from './Proyectos/Proyectos'
 function Body() {
   return (
+    <div>
+    
     <div className={style.about}>
+
+      
+     
+  
+
+
       <br />
 <p>
   <p>
@@ -36,6 +44,12 @@ En resumen, soy un desarrollador orientado a resultados que está constantemente
 </p>
 <br />
 
+
+
+
+
+</div> 
+<Proyectos />
     </div>
   )
 }
