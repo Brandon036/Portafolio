@@ -13,4 +13,33 @@ p{
     text-align: justify;
     
  }
- 
+ /* .pr{
+    opacity: 0; /* Inicialmente oculto 
+    transform: translateY(100px);  Inicialmente desplazado hacia abajo 
+    transition: opacity 0.5s, transform 0.5s;  Transiciones suaves
+    animation: aparecer 1s forwards; Aplicar la animación 
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} */
+.mano{
+   
+color: red;
+animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(50px);
+	}
+}
+
+

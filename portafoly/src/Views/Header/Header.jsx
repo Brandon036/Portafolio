@@ -10,11 +10,7 @@ function Header(){
         <div className={style.triangulo}>
           
       </div>
-      <div className={style.triangulo1}>
-       
-     </div>
-      <div className={style.triangulo2}>
-      </div>
+   
     
       </div>
 </div>

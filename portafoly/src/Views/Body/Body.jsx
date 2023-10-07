@@ -48,8 +48,14 @@ En resumen, soy un desarrollador orientado a resultados que está constantemente
 
 
 
-</div> 
-<Proyectos />
+</div>
+
+<div className={style.pr}>
+  <h1>Proyectos</h1>
+  <h2 className={style.mano}><strong >👇 Oprime 👇</strong></h2>
+  <Proyectos />
+  </div> 
+
     </div>
   )
 }
