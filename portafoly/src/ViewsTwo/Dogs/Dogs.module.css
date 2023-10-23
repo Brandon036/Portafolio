@@ -1,0 +1,38 @@
+.dogs{
+    display: flex;
+    flex-direction: column;
+}
+
+.dogsOne{
+background: rgba(253, 1, 1, 0.2);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 1.5px );
+-webkit-backdrop-filter: blur( 1.5px );
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+display: grid;
+  /* height: 610px; */
+grid-template-columns: repeat(
+    auto-fit,
+    minmax(600px, 2fr)
+);
+gap: 1em;
+
+
+}
+.dogsOne h3{
+    margin: 5rem auto;
+    border: 1px solid rgb(187, 121, 121);
+    padding: 9rem;
+    background: rgb(236, 152, 152);
+    box-shadow: 0 8px 32px 0 rgba(0, 17, 255, 0.37);
+    font-size: 5rem;
+    color: antiquewhite;
+    text-shadow:0 8px 32px 0 rgba(0, 17, 255, 0.37) ;
+}
+/* .dogsOne h4{
+    margin-top: 1rem ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   } */

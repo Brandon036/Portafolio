@@ -6,7 +6,7 @@ import Videogames from "./ViewsTwo/Dogs/Videogames/Videogames";
 import Food from "./ViewsTwo/Dogs/Food/Food";
 import Pf from "./ViewsTwo/Dogs/Pf/Pf";
 import Puertas from "./ViewsTwo/Dogs/Puertas/Puertas";
-
+import Ejemplo from "./ejemplo/ejemplo.jsx"
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,7 @@ function App() {
         <Route path="/Food" element={<Food />}/>
         <Route path="/Pf" element={<Pf />}/>
         <Route path="/Puertas" element={<Puertas />}/>
+        <Route path="/Ejemplo" element={<Ejemplo />}/>
       </Routes>
     </div>
   );

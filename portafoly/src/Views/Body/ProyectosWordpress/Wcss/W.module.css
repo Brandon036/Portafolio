@@ -1,0 +1,51 @@
+.w1{
+    background-color: rgb(147, 173, 173);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.Tw1{
+    color: black;
+}
+
+.w2{
+    background-color: rgb(103, 175, 175);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.Tw2{
+    color: rgb(61, 18, 18);
+    font-size: 1.9rem;
+}
+
+.w3{
+    background-color: rgb(56, 185, 185);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.Tw3{
+    color: rgb(126, 18, 18);
+    font-size: 2.2rem;
+}
+
+
+.cimgs{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 3fr) );
+    grid-gap: 10px;
+}
+.imgejemplo{
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10rem;
+}
+.imgejemplo:hover{
+   border-radius: 0;
+   transition: 0.3s;
+}
+
+.description{
+    color: black;
+    margin: 0 auto;
+    font-size: 1.8rem;
+    padding: 3rem;
+ }

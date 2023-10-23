@@ -1,0 +1,24 @@
+.all{
+    opacity: 0;
+    transition: all 0.5;
+    scroll-margin: 1rem;
+    background: #ff0000;
+    margin:5rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    color: aliceblue;
+
+  
+}
+.ay{
+animation:rotate-center 0.1s
+}
+
+ @keyframes rotate-center{
+    0%{
+        transform:rotate(0)
+    }
+ 100%{
+    transform:rotate(360deg)
+}
+}

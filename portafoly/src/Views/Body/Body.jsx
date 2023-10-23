@@ -1,6 +1,9 @@
 import React from 'react'
 import style from "./Body.module.css"
 import Proyectos from './Proyectos/Proyectos'
+import Wordpress from './ProyectosWordpress/Wordpress'
+import WordpressM from './ProyectosWordpress/WordpressM'
+import WorpressP from './ProyectosWordpress/WorpressP'
 function Body() {
   return (
     <div>
@@ -51,10 +54,21 @@ En resumen, soy un desarrollador orientado a resultados que está constantemente
 </div>
 
 <div className={style.pr}>
-  <h1>Proyectos</h1>
+  <h1>Proyectos Puros</h1>
   <h2 className={style.mano}><strong >👇 Oprime 👇</strong></h2>
   <Proyectos />
   </div> 
+  <h1>Proyectos con Wordpress</h1>
+  <div>
+  <Wordpress />
+  </div>
+  <div>
+    <WordpressM />
+  </div>
+  <div>
+    <WorpressP />
+  </div>
+
 
     </div>
   )

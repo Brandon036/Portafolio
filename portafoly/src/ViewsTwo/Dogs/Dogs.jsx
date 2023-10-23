@@ -1,15 +1,30 @@
 import React from 'react'
 import style from "./Dogs.module.css"
 function Dogs() {
+
+
+
   return (
-    <div>Dogs
+
 
 
 <div className={style.dogs}>
-                <h3>
+  <div className={style.dogsOne}>
+     <h3>
                 Dogs
             </h3>
-            <h4>Tenía como objetivo mostrar animales adoptivos  </h4>
+            <div> 
+              <h4>Tenía como objetivo mostrar animales adoptivos  </h4>
+             <p>Mi rol haciendo este proyecto fue desempeñado como desarrollador full stack, en la parte del back se 
+              consumio una api que me daba datos como tipos de perros(razas), imagenes, años o meses de vida.
+              </p> 
+              <p>
+                Ahora en la base de datos trabaje con PostgresSql
+              </p>
+             </div>
+           
+  </div>
+               
           
 
             
@@ -28,7 +43,7 @@ function Dogs() {
  Extra: Github.
  </p>
             </div >
-    </div>
+
   )
 }
 
