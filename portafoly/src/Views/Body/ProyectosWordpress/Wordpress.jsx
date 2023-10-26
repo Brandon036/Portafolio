@@ -31,11 +31,11 @@ function Wordpress() {
     <div id='w1' className={style.w1}>
        <h1 className={style.Tw1}>Basicos</h1>
        <div className={style.cimgs}>
-        <img className={style.imgejemplo} src="https://w7.pngwing.com/pngs/624/18/png-transparent-cute-little-star-little-stars-star-lovely-star.png" alt="" />
-        <img className={style.imgejemplo} src="https://w7.pngwing.com/pngs/624/18/png-transparent-cute-little-star-little-stars-star-lovely-star.png" alt="" />
-        <img className={style.imgejemplo} src="https://w7.pngwing.com/pngs/624/18/png-transparent-cute-little-star-little-stars-star-lovely-star.png" alt="" />
-        <img className={style.imgejemplo} src="https://w7.pngwing.com/pngs/624/18/png-transparent-cute-little-star-little-stars-star-lovely-star.png" alt="" />
-        <img className={style.imgejemplo} src="https://w7.pngwing.com/pngs/624/18/png-transparent-cute-little-star-little-stars-star-lovely-star.png" alt="" />
+        <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
+        <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
+        <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
+        <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
+        <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
        </div>
      <p className={style.description}>Pagina de muestra para tipos de clientes.</p>
     </div>

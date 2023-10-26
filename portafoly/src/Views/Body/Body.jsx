@@ -58,16 +58,22 @@ En resumen, soy un desarrollador orientado a resultados que está constantemente
   <h2 className={style.mano}><strong >👇 Oprime 👇</strong></h2>
   <Proyectos />
   </div> 
-  <h1>Proyectos con Wordpress</h1>
+  <div className={style.pw}>
+     <h1>Proyectos con Wordpress</h1>
   <div>
   <Wordpress />
   </div>
+  <br />
   <div>
     <WordpressM />
   </div>
+  <br />
   <div>
     <WorpressP />
   </div>
+  <br />
+  </div>
+ 
 
 
     </div>

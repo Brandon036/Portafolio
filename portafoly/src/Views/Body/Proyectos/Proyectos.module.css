@@ -17,6 +17,7 @@
   align-items: center;
   position: relative;
   animation: deslizamientoH 25s linear infinite;
+
 }
 @keyframes deslizamientoH{
   0% {

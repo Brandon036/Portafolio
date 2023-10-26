@@ -9,11 +9,24 @@
 
 
 }
+.pr{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://i.pinimg.com/originals/90/b6/67/90b6672252bde02acf64720f5f876669.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 p{
     text-align: justify;
     
  }
  /* .pr{
+
     opacity: 0; /* Inicialmente oculto 
     transform: translateY(100px);  Inicialmente desplazado hacia abajo 
     transition: opacity 0.5s, transform 0.5s;  Transiciones suaves
@@ -55,4 +68,12 @@ text-align: center;
 	}
 }
 
+.pw{
+   background: rgb(23, 26, 25);
+}
+.pw h1{
+ margin:0 auto;
+ padding: 0.5rem;
+ font-size: 3rem;
+}
 

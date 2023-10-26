@@ -4,7 +4,7 @@ import Body from "./Body/Body"
 import Footer from "./Fotter/Footer"
 import style from "../Views/Portafyle.module.css"
 //import { Element } from 'react-scroll';
-import { useState, useEffect } from 'react'
+//import { useState, useEffect } from 'react'
 
 function Portafyle() {
   
@@ -30,7 +30,6 @@ function Portafyle() {
       
       <div className={style.fondo}>
          <header>
-          <br />
             <Header />
           
         </header>

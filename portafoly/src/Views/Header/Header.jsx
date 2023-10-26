@@ -4,16 +4,13 @@ import style from "./Header.module.css"
 function Header(){
   return (
     <div className={style.hola} >
-<div className={style.fijar}>
+{/* <div className={style.fijar}>
   
   <div className={style.fondotriangulo} >
         <div className={style.triangulo}>
-          
       </div>
-   
-    
       </div>
-</div>
+</div> */}
 
 
       <div className={style.HeaderOne}>

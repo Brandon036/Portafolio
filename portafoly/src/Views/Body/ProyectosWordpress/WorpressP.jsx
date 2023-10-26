@@ -30,11 +30,11 @@ function WorpressP() {
     <div id='w3' className={style.w3}>   
     <h1 className={style.Tw3}>Profesionales</h1>
     <div className={style.cimgs}>
-     <img className={style.imgejemplo} src="https://w7.pngwing.com/pngs/624/18/png-transparent-cute-little-star-little-stars-star-lovely-star.png" alt="" />
-     <img className={style.imgejemplo} src="https://w7.pngwing.com/pngs/624/18/png-transparent-cute-little-star-little-stars-star-lovely-star.png" alt="" />
-     <img className={style.imgejemplo} src="https://w7.pngwing.com/pngs/624/18/png-transparent-cute-little-star-little-stars-star-lovely-star.png" alt="" />
-     <img className={style.imgejemplo}  src="https://w7.pngwing.com/pngs/624/18/png-transparent-cute-little-star-little-stars-star-lovely-star.png" alt="" />
-     <img className={style.imgejemplo} src="https://w7.pngwing.com/pngs/624/18/png-transparent-cute-little-star-little-stars-star-lovely-star.png" alt="" />
+     <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
+     <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
+     <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
+     <img className={style.imgejemplo}  src="https://pngimg.es/d/star_PNG41482.png" alt="" />
+     <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
     </div>
     <p className={style.description}>Pagina para cualquier tipo de cliente, escalable, animada, interactiba, minimalista, rendimiento eficaz, acceso rapido,
     buenas practicas recomendadas, un perfecto seo.

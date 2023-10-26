@@ -36,7 +36,7 @@
 .imgejemplo{
     width: 200px;
     margin: 0 auto;
-    border-radius: 10rem;
+ 
 }
 .imgejemplo:hover{
    border-radius: 0;
