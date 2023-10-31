@@ -33,8 +33,7 @@ function WorpressP() {
      <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
      <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
      <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
-     <img className={style.imgejemplo}  src="https://pngimg.es/d/star_PNG41482.png" alt="" />
-     <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
+
     </div>
     <p className={style.description}>Pagina para cualquier tipo de cliente, escalable, animada, interactiba, minimalista, rendimiento eficaz, acceso rapido,
     buenas practicas recomendadas, un perfecto seo.

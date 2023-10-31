@@ -1,0 +1,41 @@
+.columnWimg{
+    display: grid;
+  
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(250px, 3fr)
+    );
+   gap: 1em;
+
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+
+.WSub1img{
+    width: 255px;
+    height: 550px;
+    background: url("../Wimagenes/w1\ Basic\ 1.PNG") no-repeat;
+}
+.WSub1img2{
+    width: 255px;
+    height: 550px;
+    background: url("../Wimagenes/w1 Basic 2.PNG") no-repeat;
+}
+.WSub1img3{
+    width: 255px;
+    height: 550px;
+    background: url("../Wimagenes/w1 Basic 3.PNG") no-repeat;
+}
+.WSub1img4{
+    width: 255px;
+    height: 550px;
+    background: url("../Wimagenes/w1 Basic 4.PNG") no-repeat;
+}
+
+
+.WSu1img5{
+   max-width: 100%;
+   min-height: 750px;
+    background: url("../Wimagenes/w1\ Basic\ 5.PNG") no-repeat;
+}

@@ -7,6 +7,7 @@ import Food from "./ViewsTwo/Dogs/Food/Food";
 import Pf from "./ViewsTwo/Dogs/Pf/Pf";
 import Puertas from "./ViewsTwo/Dogs/Puertas/Puertas";
 import Ejemplo from "./ejemplo/ejemplo.jsx"
+import WSub1 from "./Views/Body/ProyectosWordpress/WSub1/WSub1";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,8 @@ function App() {
         <Route path="/Pf" element={<Pf />}/>
         <Route path="/Puertas" element={<Puertas />}/>
         <Route path="/Ejemplo" element={<Ejemplo />}/>
+
+        <Route path="/WSub1" element={<WSub1 />}/>
       </Routes>
     </div>
   );

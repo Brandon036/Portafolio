@@ -1,6 +1,7 @@
 import React from 'react'
 import style from "./Wcss/W.module.css"
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 function Wordpress() {
 
   useEffect(() => {
@@ -34,10 +35,15 @@ function Wordpress() {
         <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
         <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
         <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
-        <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
-        <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
        </div>
      <p className={style.description}>Pagina de muestra para tipos de clientes.</p>
+     
+     <Link to={"/WSub1"}>
+       <button>
+       ENTRAR
+     </button>
+     </Link>
+   
     </div>
   )
 }

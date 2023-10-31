@@ -33,8 +33,6 @@ function WordpressM() {
      <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
      <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
      <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
-     <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
-     <img className={style.imgejemplo} src="https://pngimg.es/d/star_PNG41482.png" alt="" />
     </div>
     <p className={style.description}>Pagina para varios tipos de clientes, con interaciones, minimalista y con un buen contenido digital.</p>
 </div>
