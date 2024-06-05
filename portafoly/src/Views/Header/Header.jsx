@@ -2,9 +2,13 @@
 import React from 'react'
 import style from "./Header.module.css"
 import ContadorUsuarios from './Contador'
+import MouseFollower from '../MouseFollower'
+
 function Header(){
+ 
   return (
     <div className={style.hola} >
+      <MouseFollower />
       <ContadorUsuarios />
 {/* <div className={style.fijar}>
   

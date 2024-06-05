@@ -3,6 +3,15 @@
     color: white;
    background: black;
    
-      
+   cursor: none; 
        
 }
+.circle {
+z-index: 999999;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    pointer-events: none; /* Ignorar eventos de puntero */
+  }

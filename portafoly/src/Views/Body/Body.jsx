@@ -4,10 +4,15 @@ import Proyectos from './Proyectos/Proyectos'
 import Wordpress from './ProyectosWordpress/Wordpress'
 import WordpressM from './ProyectosWordpress/WordpressM'
 import WorpressP from './ProyectosWordpress/WorpressP'
+import MouseFollower from '../MouseFollower'
+
 function Body() {
+  
+ 
+
   return (
-    <div>
-    
+    <div className={style.section}>
+ <MouseFollower />
     <div className={style.about}>  
 <div className={style.textB}>
   <p>

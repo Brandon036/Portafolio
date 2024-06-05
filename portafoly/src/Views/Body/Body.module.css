@@ -9,9 +9,9 @@ justify-content: center;
  backdrop-filter: blur( 0px );
  -webkit-backdrop-filter: blur( 0px );
 height: 100vh;
-
 }
 
+  
 .textB{
     display: flex;
     flex-direction: column;

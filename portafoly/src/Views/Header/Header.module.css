@@ -4,7 +4,9 @@
   align-items: center;
  justify-content: center;
  height: 100vh;
+
 }
+
 
 .column {
   flex: 1 0 21%; /* Ajusta el 21% según cuántas columnas quieres */
@@ -189,4 +191,6 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
+
   }
