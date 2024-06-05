@@ -1,19 +1,39 @@
-.HeaderOne {
-    display: grid;
-  
-    grid-template-columns: repeat(
-        auto-fit,
-        minmax(250px, 3fr)
-    );
-   gap: 1em;
-
-   justify-content: space-evenly;
-   align-items: center;
-   padding-top: 20vh;
+.HeaderOne{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+ justify-content: center;
+ height: 100vh;
 }
-.imagendeHeader {
-    max-width: 70%;
 
+.column {
+  flex: 1 0 21%; /* Ajusta el 21% según cuántas columnas quieres */
+  margin: 25px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+  .column {
+    flex: 1 0 30%;
+  }
+}
+
+@media (max-width: 900px) {
+  .column {
+    flex: 1 0 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 1 0 100%;
+  }
+}
+
+.imagendeHeader {
+    width: 250px;
+    border-radius: 1rem;
+   filter: drop-shadow(1px 1px 20px #dbc4cd);
   
 }
 .Name{
@@ -32,6 +52,7 @@
     text-align: center;
     font-size: 2rem;
 }
+
 .button {
     display: flex;
   }
@@ -169,51 +190,3 @@
     background-position: center;
     background-attachment: fixed;
   }
-/* 
-.fijar{
-
- margin: 0;
- height: 0;
-} */
-
-  /* .fondotriangulo{
-    display: grid;
-   grid-template-columns: repeat( auto-fit, minmax(250px, 3fr) ); /* Puedes ajustar el número de columnas según tus necesidades 
-    grid-gap: 10px;  Espacio entre los elementos 
- 
- }
- 
- .triangulo{
-  align-items: center;
-  margin-top: 1000px auto;
-  margin: 0 auto;
-    background: url("https://www.glitters123.com/wp-content/uploads/2015/04/Large-Rainbow-Glitter-Star.gif");
-    background-position: 50%;
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 81% 99%, 50% 70%, 20% 100%, 32% 57%, 2% 35%, 39% 35%);
-    width: 120px;
-    height: 100px;
-    animation: myAnim 50s ease 1s infinite normal forwards;
- z-index: 0;
- opacity: 0.4;
- }
- .triangulo:hover{
-  width: 520px;
-  height: 400px;
-
- }
- 
-
-
- 
- @keyframes myAnim {
-	0% {
-		transform: translateY(0); 
-	}
-
-	100% {
-		transform: translateY(500px);
-    width: 220px;
-    height: 200px;
-	}
-} */
-

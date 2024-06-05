@@ -43,7 +43,7 @@ function WorpressP() {
     <ul>
     <li>Dominio</li>
     <li>Certificado ssl</li>
-    <li>Conecar con Google</li>    
+    <li>Conectar con Google</li>    
     </ul>    
     </strong></p>
     </div>

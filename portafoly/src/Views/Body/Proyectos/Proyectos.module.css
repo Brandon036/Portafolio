@@ -212,7 +212,10 @@
 }
 
 .p5imagen img{
-    width: 400px;
+ background:transparent;
+    width: 250px;
+    border-radius: 1rem;
+    filter: drop-shadow(1px 1px 20px #dbc4cd)
   
 }
 

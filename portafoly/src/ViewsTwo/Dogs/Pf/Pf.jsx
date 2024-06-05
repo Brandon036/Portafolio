@@ -1,6 +1,17 @@
 import React from 'react'
 import style from "./Pf.module.css"
+import audio from "./Audio/Audio.mp3"
+import  { useEffect } from 'react';
 function Pf() {
+    
+  useEffect(() => {
+    // Obtener el elemento de audio por su ID
+    const miAudio = document.getElementById('miAudio');
+
+    // Reproducir el audio automáticamente al cargar la página
+    miAudio.play();
+  }, []);
+
   return (
     <div>Pf
         <div className={style.nftapp}>
@@ -27,9 +38,15 @@ Base De Datos: PostgresSql Sequelize</li>
 <a className={style.text} href="https://nifytigo.vercel.app/"  target="blank"  >
     Enter
    </a>
-  
+ 
 </button>
+ <audio  id="miAudio" autoplay controls loop>
+<source  src={audio} type="audio/mp3"/>
+
+</audio>
 </div>
+
+
     </div>
   )
 }

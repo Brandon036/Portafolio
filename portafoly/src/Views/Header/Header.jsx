@@ -14,11 +14,15 @@ function Header(){
 
 
       <div className={style.HeaderOne}>
-        <div className={style.Foto}>
+
+        <div className={style.column} >
             <img  className={style.imagendeHeader}  src="https://contents.bebee.com/users/id/Gdxql64dfd6797f460/avatar-1xcG6.png" alt='' /> 
         </div>
-        
+
+        <div className={style.column}> 
+          
         <div className={style.Name}>
+          
         <div className={style.button}>
         <div className={style.box}>B</div>
        <div className={style.box}>r</div>
@@ -29,6 +33,8 @@ function Header(){
         <div className={style.box}>n</div>
         </div>
 
+       
+
         <div className={style.buttonOne}>
         <div className={style.boxOne}>B</div>
         <div className={style.boxOne}>a</div>
@@ -37,11 +43,15 @@ function Header(){
         <div className={style.boxOne}>e</div>
         <div className={style.boxOne}>r</div>
         <div className={style.boxOne}>a</div>
+
         </div>
-         <p>FULL STACK DEVELOPER JUNIOR</p>
+        <p>FULL STACK DEVELOPER JUNIOR</p>
+        </div>
+
+         
         </div>
       
-      <div className={style.Resid}>
+      <div id={style.Resid} className={style.column}>
         <h4 >
         Residencia - Bogota, Colombia 
        

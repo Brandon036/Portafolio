@@ -1,14 +1,36 @@
 .about {
    
-
+display: flex;
+align-content:center ;
+justify-content: center;
  padding: 1rem;
- background: rgba(51, 51, 51, 0.6);
+ background: #000000;
  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
  backdrop-filter: blur( 0px );
  -webkit-backdrop-filter: blur( 0px );
-
+height: 100vh;
 
 }
+
+.textB{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: linear-gradient(0deg, #000000 29%, #ffffff 52%, #000000 75%);
+    background-size: 200%;
+    color: transparent;
+    background-clip: text;
+    animation: shine 20s linear infinite;
+}
+@keyframes shine {
+ to {
+ background-position:center 500px ;
+ }
+}
+
+
+
 .pr{
     display: flex;
     flex-direction: column;

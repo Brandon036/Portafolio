@@ -8,15 +8,8 @@ function Body() {
   return (
     <div>
     
-    <div className={style.about}>
-
-      
-     
-  
-
-
-      <br />
-<p>
+    <div className={style.about}>  
+<div className={style.textB}>
   <p>
     Apasionado <strong> Full Stack Developer </strong>  en la creación de aplicaciones web robustas y escalables.
     Mi enfoque se centra en la construcción de soluciones tecnológicas innovadoras que combinan una experiencia de usuario excepcional con una sólida funcionalidad. 
@@ -44,12 +37,7 @@ especialmente utilizando <strong>PostgreSQL y Sequelize </strong>, ha sido funda
 y responsivas utilizando HTML5, CSS y Bootstrap ha mejorado significativamente.
 
 En resumen, soy un desarrollador orientado a resultados que está constantemente buscando oportunidades para aprender y crecer. Mi pasión por la programación.
-</p>
-<br />
-
-
-
-
+</div>
 
 </div>
 
