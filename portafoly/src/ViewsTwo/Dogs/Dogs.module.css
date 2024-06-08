@@ -1,38 +1,114 @@
 .dogs{
     display: flex;
     flex-direction: column;
+    
 }
-
 .dogsOne{
-background: rgba(253, 1, 1, 0.2);
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 1.5px );
--webkit-backdrop-filter: blur( 1.5px );
-border: 1px solid rgba( 255, 255, 255, 0.18 );
-
-display: grid;
-  /* height: 610px; */
-grid-template-columns: repeat(
-    auto-fit,
-    minmax(600px, 2fr)
-);
-gap: 1em;
-
-
+ 
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://pe4.org/wp-content/uploads/2021/04/Los-100-nombres-de-cachorros-mas-populares-de-2021.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: center;
+height: 100vh;
+padding: 1rem;
 }
-.dogsOne h3{
-    margin: 5rem auto;
+@media (max-width: 750px) {
+    .dogsOne{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://th.bing.com/th/id/OIP.D1w3WS7S4cv-5qk7P7I2_AHaEo?rs=1&pid=ImgDetMain");
+        transition: 5s;
+        color: white; 
+    }
+    .titulo{
+        text-shadow: -9px 7px 3px #000000;
+    }
+}
+@media (min-width: 750px) {
+    .section1{
+        width: 1000px;
+    }
+    
+}
+
+.titulo{
+    margin: 4rem auto;
     border: 1px solid rgb(187, 121, 121);
     padding: 9rem;
-    background: rgb(236, 152, 152);
+    background: rgb(236, 152, 152, 0.5);
     box-shadow: 0 8px 32px 0 rgba(0, 17, 255, 0.37);
     font-size: 5rem;
     color: antiquewhite;
+   
     text-shadow:0 8px 32px 0 rgba(0, 17, 255, 0.37) ;
+    
+    
 }
-/* .dogsOne h4{
-    margin-top: 1rem ;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-   } */
+@media (max-width: 600px) {
+    .titulo{
+       padding: 2.5rem ;
+        box-shadow: 0 8px 32px 0 rgb(255, 255, 255);
+        transition: 3s;
+    }
+}
+
+.section1{
+ 
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0.1rem;
+    margin: 1rem;
+  color:white;
+   
+   
+}
+@media (max-width: 900px) {
+    .section1 {
+        display: flex;
+    }
+}
+/* PARTE 2 */
+.modulo2{
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://previews.123rf.com/images/thvideo/thvideo2303/thvideo230383324/200441964-serie-de-pinturas-para-perros-dise%C3%B1o-de-fondo-de-un-colorido-retrato-de-un-perro-sobre-arte.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;  
+display: flex;
+flex-direction: column;
+height: 100vh;
+}
+.titulo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(97, 71, 71, 0.5)  ;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family:sans-serif;
+  font-size: 2rem;
+ text-align: justify;
+ color: white;
+ height: 200px;
+}
+.final{
+    color: rgb(233, 0, 0);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}

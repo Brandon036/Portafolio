@@ -17,7 +17,7 @@ height: 100vh;
     flex-direction: column;
     justify-content: center;
 
-    background: linear-gradient(0deg, #000000 29%, #ffffff 52%, #000000 75%);
+    background: linear-gradient(0deg, #ffffff 29%, #ffffff 52%, #000000 75%);
     background-size: 200%;
     color: transparent;
     background-clip: text;
