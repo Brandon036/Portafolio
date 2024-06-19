@@ -1,7 +1,7 @@
 import {Routes,Route} from "react-router-dom"
 import Portafyle from "./Views/Portafyle";
 import './App.css';
-import Dogs from "./ViewsTwo/Dogs/Dogs";
+import Dogs from "./ViewsTwo/Dogs/Dog/Dogs.jsx";
 import Videogames from "./ViewsTwo/Dogs/Videogames/Videogames";
 import Food from "./ViewsTwo/Dogs/Food/Food";
 import Pf from "./ViewsTwo/Dogs/Pf/Pf";

@@ -1,5 +1,7 @@
 import React from 'react'
 import style from "./Dogs.module.css"
+import ApiDogs from './Api/ApiDogs'
+
 function Dogs() {
 
 
@@ -49,9 +51,10 @@ function Dogs() {
     </dir>
 
  </footer>
-            
+    
             </div>    
  
+ <ApiDogs />
             </div >
 
   )

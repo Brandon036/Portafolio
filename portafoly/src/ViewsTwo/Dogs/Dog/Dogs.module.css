@@ -101,7 +101,15 @@ height: 100vh;
   font-size: 2rem;
  text-align: justify;
  color: white;
- height: 200px;
+ 
+}
+
+@media (max-width: 450px) {
+    .titulo2 {
+        height: auto;
+        font-size: 1rem;
+        transition: 3s;
+    }
 }
 .final{
     color: rgb(233, 0, 0);

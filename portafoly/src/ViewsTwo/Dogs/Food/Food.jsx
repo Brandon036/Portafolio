@@ -1,10 +1,15 @@
 import React from 'react'
 import style from "./Food.module.css"
+import JuegoFood from './Juego/JuegoFood'
 function Food() {
   return (
-    <div>Food
+    <div className={style.cuerpof}>
+      
+     
+        <h1 className={style.navFijo}> Food  </h1>
+    
         <div className={style.alimentos} >
-<h3>
+<h3 className={style.alimentosS}>
                Alimentos Saludables
             </h3>
             <h4>Es un sitio web que tiene como objetivo dar a conocer las recetas para llevar una buena salud.  </h4>
@@ -26,6 +31,9 @@ function Food() {
  Extra: Github.
  </p>
         </div>
+        <JuegoFood />
+       
+
     </div>
   )
 }

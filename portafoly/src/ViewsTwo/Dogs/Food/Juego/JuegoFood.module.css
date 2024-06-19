@@ -1,0 +1,39 @@
+
+  .gamecontainer {
+   
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .score {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .avatar {
+    position: absolute;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background-image: url("https://cdn-icons-png.freepik.com/512/622/622043.png");
+    image-orientation: center;
+  
+    background-size: cover; /* Ajusta la imagen para cubrir el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; 
+  
+  }
+  
+  .fruit {
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+  }
+  

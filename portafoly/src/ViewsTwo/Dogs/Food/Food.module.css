@@ -1,0 +1,36 @@
+.navFijo {
+    position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgb(116, 131, 31, 0.5);
+            color: aqua;
+            text-align: center;
+            padding: 10px 0;
+            margin: 0;
+            z-index: 1000;
+}
+.alimentos{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.alimentosS{
+    width: 100px;  /* Ancho del círculo */
+    height: 100px; /* Altura del círculo */
+    padding: 50px;
+    background-color: #3a6ebd; /* Color de fondo */
+    color: white; /* Color del texto */
+    display: flex; /* Para centrar el texto */
+    align-items: center; /* Para centrar el texto verticalmente */
+    justify-content: center; /* Para centrar el texto horizontalmente */
+    border-radius: 50%; /* Hace que el div sea un círculo */
+    text-align: center;
+    margin: 0 auto; /* Centrar el círculo horizontalmente */
+    font-size: 16px; /* Tamaño del texto */
+    
+}
+.cuerpof{
+    background-color: aqua;
+}
